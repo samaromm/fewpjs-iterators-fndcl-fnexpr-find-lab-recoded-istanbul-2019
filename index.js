@@ -6,6 +6,6 @@ function testFunc() {
 
 
 function superbowlWin(arr){
-  let result = arr.find(function(e){return e[result]=='w'})
-  if(result)return result.year
+  let win = arr.find(function(e){return e[result]=='w'})
+  if(win)return win.year
 }
