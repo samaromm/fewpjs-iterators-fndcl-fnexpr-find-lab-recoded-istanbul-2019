@@ -12,5 +12,5 @@ const record = [
 ]
 
 record.find(function superbowlWin(arr){
-  
+  return result=='w'
 })
