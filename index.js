@@ -4,16 +4,9 @@ function testFunc() {
   return "hi"
 }
 
-const record = [
-  {year: "2018", result: "L"},
-  {year: "2017", result: "W"},
-  {year: "2016", result: "N/A"}
-  //...
-]
-superbowlWin(record)
 
 function superbowlWin(arr){
-  let result = arr.find(function(e){return e[result]=='w'})
+  let result = arr.find(function(e){return e.result=='w'})
   if(result)return arr.year
   return 'undefined'
 }
