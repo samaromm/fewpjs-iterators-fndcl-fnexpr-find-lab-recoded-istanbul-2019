@@ -10,8 +10,9 @@ const record = [
   {year: "2016", result: "N/A"}
   //...
 ]
+superbowlWin(record)
 
-record.find(function superbowlWin(arr){
+function superbowlWin(arr){
   if(arr.result=='w')return arr.year
   return 'undefined'
-})
+}
